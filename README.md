@@ -1,8 +1,10 @@
 This repository contains an analysis of git usage through time.
 
-To run this analysis use the following command:
+To run this analysis first run the first command, and then the second:
 
 ```
+Rscript src/combine-data.R
+
 Rscript src/make-plot.R
 ```
 
